@@ -7,9 +7,6 @@
 
 import Foundation
 
-let james = Musician()
-james.age = 50
-james.name = "James Hatfield"
-james.instrument = "Gitar"
+let james = Musician(name: "James Hatfield", age: 50, instrument: "Gitar",type: .Vocalist)
 
-print(james.age)
+print(james.type)
