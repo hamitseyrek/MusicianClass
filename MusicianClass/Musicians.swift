@@ -35,4 +35,9 @@ class Musician {
     func sing() {
         print("\(self.name) is singing")
     }
+    
+    //private - only access in this file
+    private func thisIsPrivateFunc (){
+        print("This is a private functions")
+    }
 }
