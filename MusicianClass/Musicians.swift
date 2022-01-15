@@ -31,4 +31,8 @@ class Musician {
         self.type = type
     }
     
+    //Methods
+    func sing() {
+        print("\(self.name) is singing")
+    }
 }
